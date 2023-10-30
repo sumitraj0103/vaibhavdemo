@@ -37,3 +37,10 @@ jobs:
           
       - name: Vaibhav Build Application
         run: echo Hello this is my first cicd
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Package My application
+        run: echo I am ready to package my application
+      
+       
