@@ -42,5 +42,10 @@ jobs:
     steps:
       - name: Package My application
         run: echo I am ready to package my application
+  deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Package My application
+        run: echo this is my first deploy
       
        
